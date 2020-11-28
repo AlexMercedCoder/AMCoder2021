@@ -15,8 +15,7 @@ import {
   SiJavascript,
   SiPatreon,
 } from "react-icons/si";
-import { FaTshirt, FaHome, FaFolder } from "react-icons/fa";
-import { GrDocumentUser } from "react-icons/gr";
+import { FaTshirt, FaHome, FaUserGraduate } from "react-icons/fa";
 
 const Layout = (props) => {
   return (
@@ -26,7 +25,7 @@ const Layout = (props) => {
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Baskervville&family=Manrope:wght@500&family=Rowdies:wght@700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Kumbh+Sans&display=swap"
           rel="stylesheet"
         />
         <link rel="stylesheet" type="text/css" href="/style.css" />
@@ -34,7 +33,7 @@ const Layout = (props) => {
       <Grommet theme={theme}>
         <header>
           <Heading textAlign="center" fill="true">
-            Alex Merced - <SubTitle>Software Developer</SubTitle>
+            <span class="orange">Alex Merced - </span><span class="red">Software Developer</span>
           </Heading>
           <Nav
             direction="row"
@@ -54,7 +53,7 @@ const Layout = (props) => {
               margin="medium"
             />
             <Anchor
-              icon={<GrDocumentUser />}
+              icon={<FaUserGraduate />}
               href="/resume"
               hoverIndicator
               size="xxlarge"

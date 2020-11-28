@@ -8,7 +8,7 @@ const cultured = "#F4F4F4";
 export const theme = {
   global: {
     font: {
-      family: "Baskervville",
+      family: "Kumbh Sans",
       size: "24px",
       height: "20px",
     },
@@ -21,11 +21,14 @@ export const theme = {
   },
   heading: {
     font: {
-      family: "Rowdies",
+      family: "Inter",
     },
   },
   anchor: {
     color: "#F4F4F4",
+    hover: {
+      color: "#F4F4F4",
+    },
   },
   button: {
     color: "#F4F4F4",

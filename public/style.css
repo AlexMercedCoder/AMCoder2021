@@ -49,7 +49,35 @@ code {
 
 ul {
     text-align: left;
-    width: 30%;
-    margin: 15px auto;
+    width: 80%;
+    margin: 30px auto;
     min-width: 300px;
+}
+
+.main {
+    width: 90%;
+    margin: 10px auto;
+}
+
+svg {
+    fill: #f4f4f4;
+    stroke: #f4f4f4
+}
+
+svg:hover {
+    fill: #CE4257;
+    stroke: #CE4257;
+}
+
+ul svg {
+    fill: #CE4257;
+    stroke: #CE4257;
+}
+
+.red {
+    color: #CE4257;
+}
+
+.orange {
+    color: #4F000B
 }
