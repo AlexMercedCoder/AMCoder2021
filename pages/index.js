@@ -13,7 +13,7 @@ export default class Home extends Component {
       <Layout title="main page">
         <Box>
           <Heading level="2" alignSelf="center"> Welcome, let's code.</Heading>
-          <Paragraph alignSelf="center" fill="true" className={"head"}>
+          <p alignSelf="center" fill="true" className={"head"}>
             My name is Alex Merced and I'm a software developer with a passion for developing, learning and educating. This page is my home on the web and I invite you to check the page out for really cool content that reflects the time and passion I spend honing my craft. You can also find links to my patreon and merchandise in the footer.
 
             <ul>
@@ -25,7 +25,7 @@ export default class Home extends Component {
               </ul>
 
               If you need someone to assist or consult on your development project feel free to email me at alex@alexmerced.dev for a free consultation to assess your needs what your best options are.
-          </Paragraph>
+          </p>
         </Box>
       </Layout>
     );
