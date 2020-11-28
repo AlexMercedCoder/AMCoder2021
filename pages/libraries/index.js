@@ -13,16 +13,19 @@ export default class Home extends Component {
           {title}
         </Heading>
         <Box wrap="true" direction="row" pad="medium" justify="between">
-          {apps.map((app, index) => (
+          {libraries.map((lib, index) => (
             <Card key={index} pad="medium" width="medium" alignContent="center">
-              <h3 className="head">{app.name}</h3>
-              <img src={app.img} alt={app.name} className="thumb"></img>
+              <h3 className="head">{lib.name}</h3>
               <Box pad="small" justify="between" direction="row">
-              <button className="button"><a href={app.live}>App</a></button>
-              <button className="button"><a href={app.git}>Git</a></button>
-              
+              <button className="button"><a href={lib.npm}>NPM</a></button>
+              <button className="button"><a href={lib.git}>GIT</a></button>
               </Box>
-              <p>{app.description}</p>
+              <Box pad="small" justify="between" direction="row">
+              <button className="button"><a href={lib.blog}>Blog</a></button>
+              <button className="button"><a href={lib.vid}>Video</a></button>
+              </Box>
+              <p>{lib.description}</p>
+              <code>{lib.command}</code>
             </Card>
           ))}
         </Box>

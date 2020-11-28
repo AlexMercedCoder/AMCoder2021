@@ -41,3 +41,15 @@ a {
     color: white;
     text-decoration: none;
 }
+
+code {
+    font-size: small;
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    width: 30%;
+    margin: 15px auto;
+    min-width: 300px;
+}
