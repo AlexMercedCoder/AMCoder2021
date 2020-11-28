@@ -5,6 +5,7 @@ import { Heading, Box, Paragraph } from "grommet";
 import { VscEmptyWindow, VscFileZip } from "react-icons/vsc";
 import { SiJavascript } from "react-icons/si";
 import { FaFolder } from "react-icons/fa";
+import {GrDocumentUser} from "react-icons/gr"
 
 export default class Home extends Component {
   render() {
@@ -16,7 +17,7 @@ export default class Home extends Component {
             My name is Alex Merced and I'm a software developer with a passion for developing, learning and educating. This page is my home on the web and I invite you to check the page out for really cool content that reflects the time and passion I spend honing my craft. You can also find links to my patreon and merchandise in the footer.
 
             <ul>
-              <li><FaFolder/> To view my portfolio/resume</li>
+              <li><GrDocumentUser/> To view my resume</li>
               <li><VscEmptyWindow/> To view apps I've created</li>
               <li><VscFileZip/> To view my code libraries I've authored</li>
               <li><SiJavascript/> To head to devNursery.com where I post video and blog tutorials, along with my developer slack and discord communities.</li>

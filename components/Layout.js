@@ -16,6 +16,7 @@ import {
   SiPatreon,
 } from "react-icons/si";
 import { FaTshirt, FaHome, FaFolder } from "react-icons/fa";
+import {GrDocumentUser} from "react-icons/gr"
 
 const Layout = (props) => {
   return (
@@ -53,7 +54,7 @@ const Layout = (props) => {
               margin="medium"
             />
                         <Anchor
-              icon={<FaFolder />}
+              icon={<GrDocumentUser/>}
               href="https://dev.alexmercedcoder.work/"
               hoverIndicator
               size="xxlarge"
