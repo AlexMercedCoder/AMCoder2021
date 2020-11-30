@@ -8,7 +8,7 @@ export default class Home extends Component {
   render() {
     let { title, libraries } = attributes;
     return (
-      <Layout title="main page">
+      <Layout title="Alex Merced Libraries">
         <Heading level="2" alignSelf="center" className="head" full="true">
           {title}
         </Heading>

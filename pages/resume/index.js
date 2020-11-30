@@ -8,7 +8,7 @@ export default class Home extends Component {
   render() {
     let { title, summary, skills, employment, education } = attributes;
     return (
-      <Layout title="main page">
+      <Layout title="Alex Merced Resume">
         <Heading level="2" alignSelf="center" className="head" full="true">
           {title}
         </Heading>
