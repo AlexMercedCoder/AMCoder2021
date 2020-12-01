@@ -15,7 +15,7 @@ import {
   SiJavascript,
   SiPatreon,
 } from "react-icons/si";
-import { FaTshirt, FaHome, FaUserGraduate,FaYoutubeSquare } from "react-icons/fa";
+import { FaTshirt, FaHome, FaUserGraduate, FaYoutubeSquare } from "react-icons/fa";
 
 const Layout = (props) => {
   return (
@@ -124,7 +124,7 @@ const Layout = (props) => {
             />
 
           <Anchor
-              icon={<FaYoutube />}
+              icon={<FaYoutubeSquare />}
               href="https://www.youtube.com/AlexMercedFullStackDeveloper"
               hoverIndicator
               size="xxlarge"
