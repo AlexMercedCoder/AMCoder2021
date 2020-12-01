@@ -1,0 +1,19 @@
+{
+  "codingTips": [
+    "In VSCode if a variable is dimmed, it means that the variable hasn't been used, often a good hint you mistyped the variable elsewhere",
+    "If you see a white dot in the tab in VScode, it means the file has not yet been saved yet, keep an eye out for that.",
+    "The Chrome devTools tab is your best friend when making HTTP calls to APIs and other sources, learn how it works and what information it displays",
+    "console has other functions like table, count and error to help you in debugging, learn them and use them",
+    "Read the documentation and MDN can be really illuminating as to how Javascript works"
+  ],
+  "usefulSites": [
+    { "name": "MDN", "url": "https://developer.mozilla.org/en-US/" },
+    { "name": "W3Schools", "url": "https://www.w3schools.com/" },
+    {
+      "name": "Tutorials Point",
+      "url": "https://www.tutorialspoint.com/index.htm"
+    },
+    { "name": "devNursery", "url": "https://www.devNursery.com" },
+    { "name": "dev.to", "url": "https://dev.to/" }
+  ]
+}

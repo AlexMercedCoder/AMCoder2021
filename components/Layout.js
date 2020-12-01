@@ -15,7 +15,7 @@ import {
   SiJavascript,
   SiPatreon,
 } from "react-icons/si";
-import { FaTshirt, FaHome, FaUserGraduate } from "react-icons/fa";
+import { FaTshirt, FaHome, FaUserGraduate,FaYoutubeSquare } from "react-icons/fa";
 
 const Layout = (props) => {
   return (
@@ -117,6 +117,15 @@ const Layout = (props) => {
             <Anchor
               icon={<SiApplepodcasts />}
               href="https://open.spotify.com/show/1kMcquypdIElTu4Nu98XPM"
+              hoverIndicator
+              size="xxlarge"
+              weight="bold"
+              margin="medium"
+            />
+
+          <Anchor
+              icon={<FaYoutube />}
+              href="https://www.youtube.com/AlexMercedFullStackDeveloper"
               hoverIndicator
               size="xxlarge"
               weight="bold"
