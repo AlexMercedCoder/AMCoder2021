@@ -6,22 +6,28 @@ import { VscEmptyWindow, VscFileZip } from "react-icons/vsc";
 import { SiJavascript } from "react-icons/si";
 import { FaUserGraduate } from "react-icons/fa";
 import { GrDocumentUser } from "react-icons/gr";
-import Tada from 'react-reveal/Tada';
+import Tada from "react-reveal/Tada";
 
 export default class Home extends Component {
   render() {
     return (
       <Layout title="Alex Merced - Software Developer">
         <Box className={"main"}>
-          <Heading level="2" alignSelf="center">
-            <span class="orange"> <Tada>I Learn. I Teach. I Code.</Tada></span>
+          <Heading level="2" alignSelf="center" className="sub">
+            <span class="orange">
+              {" "}
+              <Tada>I Learn. I Teach. I Code.</Tada>
+            </span>
           </Heading>
-          <p alignSelf="center" fill="true" className={"head"}>
+          <p alignSelf="center" fill={true} className={"head"}>
             My name is Alex Merced and I'm a software developer with a passion
             for developing, learning and educating. This page is my home on the
             web and I invite you to explore for content that reflects the time
-            and passion I spend honing my craft. You can also find links to my
-            patreon and merchandise in the footer.
+            and passion I spend honing my craft.{" "}
+            <span id="plug">
+              You can also find links to my patreon and merchandise in the
+              footer.
+            </span>
             <hr />
             <ul>
               <li>

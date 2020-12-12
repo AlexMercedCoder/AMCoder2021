@@ -1,83 +1,127 @@
 .button {
-    margin: 6px;
-    background-color: #CE4257;
-    color: white;
-    border: none;
-    font-size: 1.2em;
-    padding: 6px;
-    width: 30%;
-    display: block;
-    transition: color .3s, background-color .3s;
+  margin: 6px;
+  background-color: #ce4257;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  padding: 6px;
+  width: 30%;
+  display: block;
+  transition: color 0.3s, background-color 0.3s;
 }
 
-.button:hover{
-    color: #CE4257;
-    background-color: white ;
-    border: 1px solid #CE4257;
+.button:hover {
+  color: #ce4257;
+  background-color: white;
+  border: 1px solid #ce4257;
 }
 
 a:hover {
-    color: #CE4257;
-    background-color: white ;
+  color: #ce4257;
+  background-color: white;
 }
 
 p {
-    font-size: 24px;
-    line-height: 1.5em;
-    text-align: center;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 .thumb {
-    height: 300px;
-    
+  height: 300px;
 }
 
 .head {
-    text-align: center;
-    margin: 20px auto;
+  text-align: center;
+  margin: 20px auto;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 code {
-    font-size: small;
-    text-align: center;
+  font-size: small;
+  text-align: center;
 }
 
 ul {
-    text-align: left;
-    width: 80%;
-    margin: 30px auto;
-    min-width: 300px;
+  text-align: left;
+  width: 80%;
+  margin: 30px auto;
+  min-width: 300px;
 }
 
 .main {
-    width: 90%;
-    margin: 10px auto;
+  width: 90%;
+  margin: 10px auto;
 }
 
 svg {
-    fill: #f4f4f4;
-    stroke: #f4f4f4
+  fill: #f4f4f4;
+  stroke: #f4f4f4;
 }
 
 svg:hover {
-    fill: #CE4257;
-    stroke: #CE4257;
+  fill: #ce4257;
+  stroke: #ce4257;
 }
 
 ul svg {
-    fill: #CE4257;
-    stroke: #CE4257;
+  fill: #ce4257;
+  stroke: #ce4257;
 }
 
 .red {
-    color: #CE4257;
+  color: #ce4257;
 }
 
 .orange {
-    color: #4F000B
+  color: #4f000b;
+}
+
+@media screen and (max-width: 600px) {
+
+  header nav {
+      position: fixed;
+      bottom: 0;
+      flex-wrap: nowrap !important;
+      overflow: scroll;
+  }
+    
+  footer nav {
+    display: none !important;
+  }
+
+  p {
+      font-size: .8em;
+  }
+
+  body {
+      height: 1300px;
+  }
+}
+
+@media screen and (max-width: 375px){
+    p {
+        /* word-break: break-all; */
+        overflow: scroll;
+        font-size: .9em;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    body {
+        height: 900px;
+    }
+
+    .sub, ul, hr:first-of-type, #plug {
+        display: none;
+    }
+
+    svg {
+        height: .6em;
+        width: .6em;
+    }
 }
