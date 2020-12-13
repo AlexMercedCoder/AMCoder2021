@@ -82,46 +82,79 @@ ul svg {
 }
 
 @media screen and (max-width: 600px) {
-
   header nav {
-      position: fixed;
-      bottom: 0;
-      flex-wrap: nowrap !important;
-      overflow: scroll;
+    position: fixed;
+    bottom: 0;
+    flex-wrap: nowrap !important;
+    overflow: auto;
+    width: 95%;
+    margin: auto;
   }
-    
+
   footer nav {
     display: none !important;
   }
 
   p {
-      font-size: .8em;
+    font-size: 0.8em;
+  }
+
+  header nav {
+    height: 10%;
+    padding: 4px;
+  }
+
+  header nav a {
+    margin: 7px !important;
+    padding: 0px !important;
   }
 
   body {
-      height: 1300px;
+    height: 1300px;
+  }
+
+  .gonesmall {
+    display: none;
+  }
+
+  .StyledBox__StyledBoxGap-sc-13pk1d4-1 {
+    width: 0 !important;
   }
 }
 
-@media screen and (max-width: 375px){
-    p {
-        /* word-break: break-all; */
-        overflow: scroll;
-        font-size: .9em;
-        max-width: 90%;
-        margin: auto;
-    }
+@media screen and (max-width: 375px) {
+  p {
+    /* word-break: break-all; */
+    overflow: scroll;
+    font-size: 0.9em;
+    max-width: 90%;
+    margin: auto;
+  }
 
-    body {
-        height: 900px;
-    }
+  header nav {
+    height: 10%;
+    padding: 2px;
+  }
 
-    .sub, ul, hr:first-of-type, #plug {
-        display: none;
-    }
+  body {
+    height: 1100px;
+  }
 
-    svg {
-        height: .6em;
-        width: .6em;
-    }
+  .sub,
+  ul,
+  hr:first-of-type,
+  #plug {
+    display: none;
+  }
+
+  svg {
+    height: 0.6em;
+    width: 0.6em;
+    line-height: 20px;
+  }
+
+  header nav a {
+    margin: 6px !important;
+    padding: 0 !important;
+  }
 }

@@ -43,6 +43,7 @@ const Layout = (props) => {
             justify="center"
             wrap="true"
             responsive="true"
+            className="headernav"
           >
             <Anchor
               icon={<FaHome />}
@@ -121,6 +122,7 @@ const Layout = (props) => {
               size="xxlarge"
               weight="bold"
               margin="medium"
+              className="gonesmall"
             />
 
           <Anchor
@@ -130,6 +132,7 @@ const Layout = (props) => {
               size="xxlarge"
               weight="bold"
               margin="medium"
+              className="gonesmall"
             />
           </Nav>
         </header>

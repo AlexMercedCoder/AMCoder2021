@@ -52,7 +52,7 @@ export default class Home extends Component {
             <hr />
             If you need someone to assist or consult on your development project
             feel free to email me at alex@alexmerced.dev for a free consultation
-            to assess your needs what your best options are.
+            to assess your needs and what your best options are.
           </p>
         </Box>
       </Layout>
