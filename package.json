@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "copy": "cp -v workbox-8778d57b.js .next/sw.js out",
+    "copy": "cp -v workbox-8778d57b.js manifest.json .next/sw.js out",
     "export": "npm run build && next export",
     "final": "npm run export && npm run copy"
   },
