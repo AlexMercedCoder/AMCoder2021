@@ -193,7 +193,7 @@ const Layout = (props) => {
 
             <Anchor
               icon={<FaTshirt />}
-              href="https://teechip.com/devNursery1"
+              href="https://teechip.com/stores/amcoder"
               hoverIndicator
               size="xxlarge"
               weight="bold"
