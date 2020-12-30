@@ -28,6 +28,8 @@ export default class Home extends Component {
                 <p>{skills.frontend}</p>
                 <h4>Backend</h4>
                 <p>{skills.backend}</p>
+                <h4>Languages</h4>
+                <p>{skills.languages}</p>
                 <h4>Dev-Ops</h4>
                 <p>{skills.devops}</p>
                 <h4>Productivity</h4>

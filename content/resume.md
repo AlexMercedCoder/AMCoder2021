@@ -7,6 +7,7 @@ summary:
 skills:
   frontend: React, Vue, Angular, Svelte, StencilJS, jQuery, Redux, Styled Components, Grommet, React Bootstrap, Buefy, Bulma, Materialize, Bootstrap, Web Components
   backend: ExpressJS, KoaJS, FoalTS, NestJS, Go/Buffalo, Go/Echo, Ruby/Rails, Ruby/Sinatra, Python/Django, PHP/Laravel, MongoDB, PostgresQL, Apollo Server/GraphQL
+  languages: Javascript, Typescript, Python, Ruby, PHP, Go, Ballerina, Rust, C++, Raku, Java, Crystal, and Nim
   devops: Docker, AWS Lambda, Netlify Functions, Firebase, Firestore, Netlify, Heroku, Vercel, Jest, Cypress, CircleCI, Github Actions
   productivity: Google Docs, Airtable, Asana, Trello, Microsoft Office, Zoom, Google Hangouts, Slack, Discord
 employment:

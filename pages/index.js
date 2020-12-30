@@ -19,6 +19,13 @@ export default class Home extends Component {
               <Tada>I Learn. I Teach. I Code.</Tada>
             </span>
           </Heading>
+          <img style={{
+            height: "250px",
+            borderRadius: "50%",
+            width: "200px",
+            display: "block",
+            margin: "9px auto"
+          }} id="photo" src="/pic.JPG" alt="Alex Merced Coder"/>
           <p alignSelf="center" fill={true} className={"head"}>
             My name is Alex Merced and I'm a software developer with a passion
             for developing, learning and educating. This page is my home on the

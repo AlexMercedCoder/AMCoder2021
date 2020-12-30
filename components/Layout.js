@@ -199,7 +199,7 @@ const Layout = (props) => {
               weight="bold"
               margin="medium"
             />
-
+            
             <Anchor
               label="Alex@AlexMerced.dev"
               hoverIndicator
