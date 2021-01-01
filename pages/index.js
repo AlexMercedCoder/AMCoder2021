@@ -7,6 +7,8 @@ import { SiJavascript } from "react-icons/si";
 import { FaUserGraduate } from "react-icons/fa";
 import { GrDocumentUser } from "react-icons/gr";
 import Tada from "react-reveal/Tada";
+import Link from 'next/link'
+import {CtaBox, CtaBtn} from "../components/styles"
 
 export default class Home extends Component {
   render() {
@@ -26,6 +28,18 @@ export default class Home extends Component {
             display: "block",
             margin: "9px auto"
           }} id="photo" src="/pic.JPG" alt="Alex Merced Coder"/>
+
+          <CtaBox>
+            <Link href="/resume"><CtaBtn>Resume</CtaBtn></Link>
+            <Link href="/apps"><CtaBtn>Apps</CtaBtn></Link>
+          </CtaBox>
+
+          <CtaBox>
+            <Link href="/libraries"><CtaBtn>Libraries</CtaBtn></Link>
+            <a href="https://tuts.alexmercedcoder.com"><CtaBtn>Blog</CtaBtn></a>
+          </CtaBox>
+
+
           <p alignSelf="center" fill={true} className={"head"}>
             My name is Alex Merced and I'm a software developer with a passion
             for developing, learning and educating. This page is my home on the
