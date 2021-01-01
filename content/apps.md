@@ -11,7 +11,7 @@ apps:
     live: https://savvyhotspots.netlify.com/
     git: https://github.com/AlexMercedCoder/SavvyBackendAPI
     img: https://i.imgur.com/sRcGAXe.png
-    description: Site to searching and commenting on Savannah, GA Hotspots! Created with React/PHP/Postgres
+    description: Site for searching and commenting on Savannah, GA Hotspots! Created with React/PHP/Postgres
   - name: BetterBoxD
     live: https://betterboxd.herokuapp.com/
     git: https://github.com/Jordan-Morales/betterboxd
@@ -21,27 +21,27 @@ apps:
     live: https://shrouded-beach-63520.herokuapp.com/
     git: https://github.com/AlexMercedCoder/Unit2EveVol
     img: http://alexmercedcoder.com/evevol.png
-    description: Application for tracking events and volunteers
+    description: Application for tracking events and volunteers created with Express/EJS/Mongo
   - name: Calculator
     live: https://optimistic-lamarr-1dc751.netlify.com/
     git: https://github.com/AlexMercedCoder/GABootcampProjects
     img: https://i.imgur.com/NPV7bmk.png
-    description: Fully Functioning Calculator
+    description: Fully Functioning Calculator created with html/css/js
   - name: Pet Adoption App
     live: https://alexmercedcoder.github.io/petadoptionapp/
     git: https://github.com/AlexMercedCoder/GABootcampProjects
     img: https://i.imgur.com/aAQyVp1.jpg
-    description: App for finding local adoptable pets
+    description: App for finding local adoptable pets created with html/css/js/jQuery
   - name: Todo List
     live: https://xenodochial-beaver-d27eca.netlify.com/
     git: https://github.com/AlexMercedCoder/GABootcampProjects
     img: https://i.imgur.com/rtY5MTr.png
-    description: Todo List with Save and Load feature
+    description: Todo List with Save and Load feature created with html/css/js/localStorage
   - name: Bill & Ted | Tic-Tac-Toe
     live: https://stoic-stonebraker-80dd15.netlify.com/
     git: https://github.com/AlexMercedCoder/GABootcampProjects
     img: https://i.imgur.com/F3mFQzR.jpg
-    description: Bill and Ted Themed Tic-Tac-Toe Game.
+    description: Bill and Ted Themed Tic-Tac-Toe Game created with html/css/js.
 ---
 Welcome to my awesome page about cats of the internet.
 
