@@ -163,6 +163,13 @@ libraries:
     vid:
     blog:
     command: npx create-markdown-blog template projectName
+  - name: ezcomponent
+    description: Web Component Based Frontend Library
+    github: https://github.com/AlexMercedCoder/ezcomponent
+    npm: https://www.npmjs.com/package/ezcomponent
+    vid:
+    blog: https://tuts.alexmercedcoder.com/2021/1/ezcomponent/
+    command: npx create-ezcomponent-app projectName
 ---
 
 Welcome to my awesome page about cats of the internet.
