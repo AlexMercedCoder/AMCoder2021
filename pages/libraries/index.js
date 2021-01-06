@@ -18,7 +18,7 @@ export default class Home extends Component {
               <h3 className="head">{lib.name}</h3>
               <Box pad="small" justify="between" direction="row">
               <button className="button"><a href={lib.npm}>NPM</a></button>
-              <button className="button"><a href={lib.git}>GIT</a></button>
+              <button className="button"><a href={lib.github}>GIT</a></button>
               </Box>
               <Box pad="small" justify="between" direction="row">
               <button className="button"><a href={lib.blog}>Blog</a></button>
