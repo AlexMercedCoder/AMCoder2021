@@ -170,6 +170,13 @@ libraries:
     vid:
     blog: https://tuts.alexmercedcoder.com/2021/1/ezcomponent/
     command: npx create-ezcomponent-app projectName
+  - name: mercedlogger
+    description: Node Colored Logging Utility
+    github: https://github.com/AlexMercedCoder/mercedlogger
+    npm: https://www.npmjs.com/package/mercedlogger
+    vid:
+    blog: https://tuts.alexmercedcoder.com/
+    command: npm install mercedlogger
 ---
 
 Welcome to my awesome page about cats of the internet.
