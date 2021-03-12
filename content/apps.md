@@ -18,7 +18,7 @@ apps:
     img: https://i.imgur.com/MLcgfsf.png
     description: Social Network for liking and commenting on your favorite movies, created with AngularJS, Express and MongoDB
   - name: EveVol - Event/Volunteers
-    live: https://shrouded-beach-63520.herokuapp.com/
+    live: https://evevol.herokuapp.com/
     git: https://github.com/AlexMercedCoder/Unit2EveVol
     img: http://alexmercedcoder.com/evevol.png
     description: Application for tracking events and volunteers created with Express/EJS/Mongo
